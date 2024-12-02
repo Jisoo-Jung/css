@@ -1,0 +1,15 @@
+#text-wrap {
+    width: 300px;
+    /* 너비 */
+    height: 300px;
+    /* 높이 */
+    background-color: forestgreen;
+    font-size: 55px;
+    color:beige;
+    text-align: center;
+    /* 글씨 줄 맞춤(수평): 중앙*/
+    line-height: 100px;
+    /* 줄-높이(수직) => 위에서 아래로*/
+    padding-top: 200px;
+    /* 안 여백 중 위쪽 */
+}

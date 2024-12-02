@@ -1,0 +1,119 @@
+/* body {
+    font-size: 40px;
+}
+
+#a { 
+    border: 4px dashed black;
+}
+
+#b { 
+    border: 7px solid brown;
+}
+
+#c {
+    border: 4px dashed bisque;
+    background-color: red;
+}
+
+#e {
+    border: 4px dashed bisque;
+    background-color: blue;
+}
+
+#d {
+    border: 2px solid bisque;
+    color: white;
+}
+
+#f {
+    border: 2px solid bisque;
+    color: white;
+}
+
+#g {
+    border: 4px dashed hotpink;
+}
+
+#h {
+    background-color: greenyellow;
+} */
+
+#a {
+    border: 2px solid black;
+    width: 500px;
+    height: 800px;
+}
+
+#b, #g {
+    border: 2px solid blue;
+    width: 400px;
+    height: 300px;
+}
+
+#c, #e {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+#b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#e {
+    padding: 10px 0;
+    line-height: 100px;
+}
+
+#g {
+    /* display: flex;
+    justify-content: end; */
+    text-align: end;
+}
+
+#h {
+    line-height: 575px;  
+}
+
+
+
+/* #a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid violet;
+    width: 800px;
+    height: 750px;
+}
+
+#b, #g {
+    border: 5px solid red;
+    width: 300px;
+    height: 300px;
+}
+
+#c, #e {
+    border: 5px solid green;
+    width: 100px;
+    height: 120px;
+}
+
+#b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#e {
+    padding: 10px 0;
+    line-height: 120px;
+}
+
+#g {
+    text-align: right;
+    line-height: 581px;
+} */

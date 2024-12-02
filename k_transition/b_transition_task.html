@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>transition 실습</title>
+        <style>
+            div:nth-child(1) {
+                width: 150px;
+                height: 70px;
+                background-color: red;
+                transition: width 1s 0s, background-color 1s 0s, transform 1s 0s,
+                    opacity 1s 1s;
+            }
+            /* 너비: 길어짐
+색상: 파란색으로 변함
+이동: 오른쪽으로 약간 이동
+투명: 길어진 후에 투명해짐 */
+
+            div:nth-child(1):hover {
+                width: 400px;
+                background-color: blue;
+                opacity: 30%;
+                transform: translateX(10px);
+            }
+
+            /* ******************************************************************* */
+            div:nth-child(2) {
+                width: 150px;
+                height: 70px;
+                background-color: red;
+                transition: width 1s, background-color 1s, opacity 1s 1s;
+            }
+
+            div:nth-child(2):hover {
+                width: 400px;
+                background-color: blue;
+                opacity: 30%;
+            }
+            /* ******************************************************************* */
+            div:nth-child(3) {
+                width: 150px;
+                height: 70px;
+                background-color: red;
+                transition-property: width, background-color, opacity;
+                transition-duration: 1s, 1s, 1s;
+                transition-delay: 0s, 0s, 1s;
+            }
+
+            div:nth-child(3):hover {
+                width: 400px;
+                background-color: blue;
+                opacity: 30%;
+            }
+            /* ******************************************************************* */
+            div:nth-child(4) {
+                width: 150px;
+                height: 70px;
+                background-color: red;
+                transition: all 1s, opacity 1s 1s;
+            }
+
+            div:nth-child(4):hover {
+                width: 400px;
+                background-color: blue;
+                opacity: 30%;
+            }
+            /* ******************************************************************* */
+            div:nth-child(5) {
+                width: 150px;
+                height: 70px;
+                background-color: red;
+                cursor: pointer;
+                transition: all 1s, opacity 1s 1s, rotate 1s;
+                margin: 100px;
+            }
+
+            div:nth-child(5):hover {
+                width: 400px;
+                background-color: blue;
+                opacity: 30%;
+                transform: rotate(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </body>
+</html>

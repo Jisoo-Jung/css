@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            body {
+                font-size: 35px;
+            }
+            #image {
+                margin: 0 auto;
+                width: 220px;
+                height: 315px;
+                background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                /* position: relative; */
+                position: absolute;
+                top: 30%;
+                left: 40%;
+            }
+
+            .img1 {
+                position: absolute;
+                top: 0%;
+                transform: translate(30%, 80%);
+            }
+            .img2 {
+                position: absolute;
+                top: 0%;
+                transform: translate(7%, -7%);
+            }
+            .img3 {
+                position: absolute;
+                top: 0%;
+                transform: translate(45%, -50%);
+            }
+
+            .img4 {
+                top: 0%;
+                left: 0%;
+                transform: translate(-100%, 15%);
+            }
+            .img5 {
+                position: absolute;
+                top: 70%;
+                right: 7%;
+                transform: translate(0, 15%);
+            }
+
+            .img6 {
+                position: absolute;
+                top: 0%;
+                transform: translate(-100%, 15%);
+            }
+
+            #title {
+                position: absolute;
+                top: 60%;
+                left: 15%;
+                transform: translate(25%, -5%);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="image">
+            <div class="img1">
+                <img src="imgs/img7 (2).png" alt="" width="70px" />
+            </div>
+            <div class="img2">
+                <img src="imgs/img4 (2).png" alt="" width="145px" />
+            </div>
+            <div class="img3">
+                <img src="imgs/img7 (1).png" alt="" width="320px" />
+            </div>
+            <div class="img4">
+                <img src="imgs/img6 (2).png" alt="" width="190px" />
+            </div>
+            <div class="img5">
+                <img src="imgs/img9.png" alt="" width="220px" />
+            </div>
+            <div class="img6">
+                <!-- <img src="imgs/img7 (4).png" alt="" width="220px" /> -->
+            </div>
+        </div>
+        <div id="title">
+            <p><strong>[ 제목: 다시 돌아갈까?😊 ]</strong></p>
+        </div>
+    </body>
+</html>

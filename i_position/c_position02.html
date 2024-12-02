@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            body {
+                font-size: 35px;
+            }
+            #image {
+                margin: 0 auto;
+                width: 20px;
+                height: 20px;
+                background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                position: absolute;
+                top: 30%;
+                left: 40%;
+            }
+
+            .image1 {
+                position: absolute;
+                top: 0%;
+                left: 10%;
+                transform: translate(100%, -35%);
+            }
+
+            .image2 {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                transform: translate(-100%, -35%);
+            }
+
+            .image3 {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                transform: translate(0%, 10%);
+            }
+            .image4 {
+                position: absolute;
+                top: 0%;
+                left: 10%;
+                transform: translate(100%, 10%);
+            }
+
+            .image5 {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                transform: translate(-100%, 10%);
+            }
+            .image6 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-100%, 10%);
+            }
+
+            .image7 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(0%, 10%);
+            }
+
+            .image8 {
+                position: absolute;
+                top: 100%;
+                left: 5%;
+                transform: translate(100%, 10%);
+            }
+
+            .image9 {
+                position: absolute;
+                top: 100%;
+                left: 10%;
+                transform: translate(100%, -125%);
+            }
+
+            .image10 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(0%, -125%);
+            }
+
+            .image11 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-100%, -125%);
+            }
+
+            .image12 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-200%, -125%);
+            }
+
+            .image13 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-200%, -78%);
+            }
+
+            .image14 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-200%, -33%);
+            }
+
+            .image15 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-200%, 10%);
+            }
+
+            .image17 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(215%, -32%);
+            }
+            .image18 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(215%, -78%);
+            }
+
+            .image16 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(210%, 10%);
+            }
+
+            .image19 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(210%, 1%);
+            }
+            .image20 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(215%, -125%);
+            }
+            .image21 {
+                position: absolute;
+                top: 100%;
+                left: 0%;
+                transform: translate(-225%, -55%);
+            }
+
+            .title {
+            }
+        </style>
+    </head>
+    <body>
+        <div id="image">
+            <div class="image1">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image2">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image3">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image4">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image5">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image21">
+                <img
+                    src="imgs/img11png.png"
+                    alt=""
+                    width="20px"
+                    height="25px"
+                />
+            </div>
+            <div class="image6">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image7">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image8">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image9">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image10">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image11">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image12">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image13">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image14">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image17">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image18">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image20">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image15">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+            <div class="image19">
+                <img
+                    src="imgs/img11png.png"
+                    alt=""
+                    width="20px"
+                    height="25px"
+                />
+            </div>
+            <div class="image16">
+                <img src="imgs/img10.png" alt="" width="20px" />
+            </div>
+        </div>
+        <div id="title">
+            <!-- <p><strong>[ 강사님을 찾아라 ]</strong></p> -->
+        </div>
+    </body>
+</html>
